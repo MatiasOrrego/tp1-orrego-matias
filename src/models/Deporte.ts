@@ -10,9 +10,5 @@ constructor(nombre: string, maxPorEquipo: number){
 }
 
 
-/**
-* Valida si un equipo cumple las reglas mínimas del deporte.
-* Debe lanzar Error con un mensaje claro si no cumple.
-*/
-abstract validar(equipo: Equipo): boolean;
+abstract validar(equipo: Equipo): void;
 }
